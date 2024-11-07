@@ -9,19 +9,15 @@ tags: [QAF, 教程, Shutter Encoder, 小版本]
 ## 软件安装
 
 1. 打开Shutter Encoder的官网：[https://www.shutterencoder.com](https://www.shutterencoder.com)
-   <br/>
-
-   ![website](/assets/img/post/2024-11-06-how-to-compress-video-by-shutter-encoder/website.png)
-    <br/>
+   
+   <center><img src= "/assets/img/post/2024-11-06-how-to-compress-video-by-shutter-encoder/website.png" alt = "Offical Website"></center>
 
 2. 点击Downloads，跳转到下方的下载区域。
-   <br/>
-
-    ![downloads](/assets/img/post/2024-11-06-how-to-compress-video-by-shutter-encoder/downloads.png)
+   <center><img src= "/assets/img/post/2024-11-06-how-to-compress-video-by-shutter-encoder/downloads.png" alt= "Downloads"></center>
     <br/>
 3. 将中间的捐赠滑动条拖到最左边，即捐赠0美元。然后根据自己的系统及CPU型号选择对应的版本。早期苹果电脑请选择INTEL版本，M1及之后的产品请点击Apple Silicon。
    <br/>
-   <br/>
+   
 4. 之后会跳出下载界面，不同浏览器的显示方式不同，保存后再双击打开或直接打开均可。
    <br/>
    <center><img src="/assets/img/post/2024-11-06-how-to-compress-video-by-shutter-encoder/versions.png" alt="Firefox浏览器下载界面"><figcaption>firefox浏览器</figcaption></center>
