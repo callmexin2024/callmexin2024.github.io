@@ -11,19 +11,21 @@ tags: [QAF, 教程, Shutter Encoder, 小版本]
 1. 打开Shutter Encoder的官网：[https://www.shutterencoder.com](https://www.shutterencoder.com)
    
    <center><img src= "/assets/img/post/2024-11-06-how-to-compress-video-by-shutter-encoder/website.png" alt = "Offical Website"></center>
+   <br/>
 
 2. 点击Downloads，跳转到下方的下载区域。
+   
    <center><img src= "/assets/img/post/2024-11-06-how-to-compress-video-by-shutter-encoder/downloads.png" alt= "Downloads"></center>
+   <br/>
 
 3. 将中间的捐赠滑动条拖到最左边，即捐赠0美元。然后根据自己的系统及CPU型号选择对应的版本。早期苹果电脑请选择INTEL版本，M1及之后的产品请点击Apple Silicon。
    <br/>
 
 4. 之后会跳出下载界面，不同浏览器的显示方式不同，保存后再双击打开或直接打开均可。
-   <br/>
+   
    <center><img src="/assets/img/post/2024-11-06-how-to-compress-video-by-shutter-encoder/versions.png" alt="Firefox浏览器下载界面"><figcaption>firefox浏览器</figcaption></center>
 
     <center><img src="/assets/img/post/2024-11-06-how-to-compress-video-by-shutter-encoder/versions2.png" alt="Edge浏览器下载界面"><figcaption>Edge浏览器</figcaption></center>
-
     <br/>
 
 5. 打开安装界面后，一路点击继续，期间会需要同意协议，以及输入Apple ID的密码或用指纹替代。
@@ -55,11 +57,12 @@ tags: [QAF, 教程, Shutter Encoder, 小版本]
    
 
 4. 点击编码格式后，界面会扩张成三栏，在右上方的 `Scale/比例` 中选择合适的分辨率。
-
+   
    <center><img src="/assets/img/post/2024-11-06-how-to-compress-video-by-shutter-encoder/scale.png" alt="scale"></center>
    <br/>
 
 5. 需要注意的是，系统给出的分辨率选项们长宽比并不相同，需要寻找与片源相同的进行缩放。如果选择了不同的长宽比，则可以明显看到中间的画面出现黑边变化。保险一些的方式是可以直接选择最下方的 `50%` ，这代表影片在长宽比例不变的情况下分辨率减半。
+   
    <center><img src="/assets/img/post/2024-11-06-how-to-compress-video-by-shutter-encoder/scale2.png" alt="scale2"></center>
    <br/>
 
@@ -76,6 +79,7 @@ tags: [QAF, 教程, Shutter Encoder, 小版本]
 2. 压制完成后请检查视频大小是否成功减少，以及能否正常播放，简单拖动进度条确保没有因为压制异常产生的黑屏或色块。
    
    <center><img src="/assets/img/post/2024-11-06-how-to-compress-video-by-shutter-encoder/file.png" alt="file"></center>
+   <br/>
    
    
 
