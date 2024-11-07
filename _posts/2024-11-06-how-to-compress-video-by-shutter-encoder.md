@@ -1,13 +1,10 @@
 ---
-title:  MacOS
-#使用Shutter Encoder压制视频小版本
-date: 2024-11-06 20:00:00 
+title: MacOS使用Shutter Encoder压制视频小版本
+date: 2024-11-06 20:00:00 +0200
 description: 简单介绍Mac系统压制小版本的方法
 categories: [QAF中文站, 教程]
-tags: [QAF][教程][Shutter Encoder][小版本]
+tags: [QAF, 教程, Shutter Encoder, 小版本]
 ---
-
-
 
 1. 打开Shutter Encoder的官网：[https://www.shutterencoder.com](https://www.shutterencoder.com)。
    <br/>
