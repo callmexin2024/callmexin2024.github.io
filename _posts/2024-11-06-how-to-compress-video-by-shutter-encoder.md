@@ -2,8 +2,9 @@
 title: MacOS使用Shutter Encoder压制视频小版本
 date: 2024-11-06 20:00:00 +0200
 description: 简单介绍Mac系统压制小版本的方法
+
 categories: [字幕组, 教程]
-tags: [字幕组，教程, Shutter Encoder, 小版本]
+tags: [字幕组, 教程, 小版本, Shutter Encoder]
 ---
 
 ## 软件安装
