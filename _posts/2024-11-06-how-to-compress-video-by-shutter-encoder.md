@@ -18,10 +18,10 @@ tags: [QAF, 教程, Shutter Encoder, 小版本]
    <center><img src= "/assets/img/post/2024-11-06-how-to-compress-video-by-shutter-encoder/downloads.png" alt= "Downloads"></center>
    <br/>
 
-3. 将中间的捐赠滑动条拖到最左边，即捐赠0美元。然后根据自己的系统及CPU型号选择对应的版本。早期苹果电脑请选择INTEL版本，M1及之后的产品请点击Apple Silicon。
+3. 将中间的捐赠滑动条拖到最左边，即捐赠0美元。然后根据自己的系统及CPU型号选择对应的版本。早期苹果电脑请选择Intel版本，M1芯片及之后的产品请点击Apple Silicon。
    <br/>
 
-4. 之后会跳出下载界面，不同浏览器的显示方式不同，保存后再双击打开或直接打开均可。
+4. 之后会跳出下载界面，不同浏览器的显示方式不同，保存后双击打开或直接打开均可。
    
    <center><img src="/assets/img/post/2024-11-06-how-to-compress-video-by-shutter-encoder/versions.png" alt="Firefox浏览器下载界面"><figcaption>firefox浏览器</figcaption></center>
 
@@ -29,14 +29,24 @@ tags: [QAF, 教程, Shutter Encoder, 小版本]
     <br/>
 
 5. 打开安装界面后，一路点击继续，期间会需要同意协议，以及输入Apple ID的密码或用指纹替代。
+   
+   <center><img src="/assets/img/post/2024-11-06-how-to-compress-video-by-shutter-encoder/install1.png" alt="Shutter Encoder安装界面"></center>
+
+    <center><img src="/assets/img/post/2024-11-06-how-to-compress-video-by-shutter-encoder/install2.png" alt="Shutter Encoder安装界面"></center>
+
+    <center><img src="/assets/img/post/2024-11-06-how-to-compress-video-by-shutter-encoder/install3.png" alt="Shutter Encoder安装界面"></center>
+    <br/>
+6. 安装结束后可将安装文件移到废纸篓，或自行删除。
+   
+    <center><img src="/assets/img/post/2024-11-06-how-to-compress-video-by-shutter-encoder/install4.png" alt="Shutter Encoder安装界面"></center>
     <br/>
 
-6. 安装完成后软件会自动打开。
+7. 以上步骤完成后软件会自动打开。
 
    <center><img src="/assets/img/post/2024-11-06-how-to-compress-video-by-shutter-encoder/se1.png" alt="Shutter Encoder主界面"></center>
     <br/>
 
-7. 点击左上角的齿轮按钮打开设置，在 `Set language to` 中可以将语言切换为简体中文。下面的教程将标注中英双语。
+8.  点击左上角的齿轮按钮打开设置，在 `Set language to` 中可以将语言切换为简体中文。下面的教程将标注中英双语。
 
    <center><img src="/assets/img/post/2024-11-06-how-to-compress-video-by-shutter-encoder/language.png" alt="选择语言"></center>
    
@@ -47,7 +57,7 @@ tags: [QAF, 教程, Shutter Encoder, 小版本]
    <center><img src="/assets/img/post/2024-11-06-how-to-compress-video-by-shutter-encoder/choose_video.png" alt="选择视频"></center>
    <br/>
 
-2. 在下方的 `Choose function/选择功能` 中选择我们希望使用的视频编码格式，通常选择 `H264` 或者 `H265` ，后者的压缩比例会更高一些。
+2. 在下方的 `Choose function/选择功能` 中选择希望使用的视频编码格式，通常使用 `H264` 或者 `H265` ，后者的压缩比例会更高一些。
 
    <center><img src="/assets/img/post/2024-11-06-how-to-compress-video-by-shutter-encoder/choose_function.png" alt="选择编码"></center>
    <br/>
@@ -61,7 +71,7 @@ tags: [QAF, 教程, Shutter Encoder, 小版本]
    <center><img src="/assets/img/post/2024-11-06-how-to-compress-video-by-shutter-encoder/scale.png" alt="scale"></center>
    <br/>
 
-5. 需要注意的是，系统给出的分辨率选项们长宽比并不相同，需要寻找与片源相同的进行缩放。如果选择了不同的长宽比，则可以明显看到中间的画面出现黑边变化。保险一些的方式是可以直接选择最下方的 `50%` ，这代表影片在长宽比例不变的情况下分辨率减半。
+5. 需要注意的是，系统给出的分辨率选项们长宽比并不统一，需要寻找与片源相同的类型进行缩放。如果选择了不同的长宽比，则可以明显看到中间的画面出现了黑边宽度变化。保险一些的方式是可以直接选择最下方的 `50%` ，这代表影片在长宽比例不变的情况下分辨率减半。
    
    <center><img src="/assets/img/post/2024-11-06-how-to-compress-video-by-shutter-encoder/scale2.png" alt="scale2"></center>
    <br/>
