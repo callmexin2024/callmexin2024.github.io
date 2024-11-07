@@ -9,7 +9,6 @@ tags: [QAF, 教程, Shutter Encoder, 小版本]
 ## 软件安装
 
 1. 打开Shutter Encoder的官网：[https://www.shutterencoder.com](https://www.shutterencoder.com)
-   
    <br/>
 
    ![website](/assets/img/post/2024-11-06-how-to-compress-video-by-shutter-encoder/website.png)
@@ -19,12 +18,10 @@ tags: [QAF, 教程, Shutter Encoder, 小版本]
    <br/>
 
     ![downloads](/assets/img/post/2024-11-06-how-to-compress-video-by-shutter-encoder/downloads.png)
-
     <br/>
 3. 将中间的捐赠滑动条拖到最左边，即捐赠0美元。然后根据自己的系统及CPU型号选择对应的版本。早期苹果电脑请选择INTEL版本，M1及之后的产品请点击Apple Silicon。
-
    <br/>
-
+   <br/>
 4. 之后会跳出下载界面，不同浏览器的显示方式不同，保存后再双击打开或直接打开均可。
    <br/>
    <center><img src="/assets/img/post/2024-11-06-how-to-compress-video-by-shutter-encoder/versions.png" alt="Firefox浏览器下载界面"><figcaption>firefox浏览器</figcaption></center>
@@ -36,16 +33,18 @@ tags: [QAF, 教程, Shutter Encoder, 小版本]
     <br/>
 
 5. 打开安装界面后，一路点击继续，期间会需要同意协议，以及输入Apple ID的密码或用指纹替代。
+   
     <br/>
-6. 安装完成后软件会自动打开。
-   <br/>
 
+6. 安装完成后软件会自动打开。
+   
+   <br/>
    <center><img src="/assets/img/post/2024-11-06-how-to-compress-video-by-shutter-encoder/se1.png" alt="Shutter Encoder主界面"></center>
     <br/>
 
 7. 点击左上角的齿轮按钮打开设置，在 `Set language to` 中可以将语言切换为简体中文。下面的教程将标注中英双语。
+   
    <br/>
-
    <center><img src="/assets/img/post/2024-11-06-how-to-compress-video-by-shutter-encoder/language.png" alt="选择语言"></center>
     <br/>
    
@@ -58,6 +57,7 @@ tags: [QAF, 教程, Shutter Encoder, 小版本]
    <br/>
 
 2. 在下方的 `Choose function/选择功能` 中选择我们希望使用的视频编码格式，通常选择 `H264` 或者 `H265` ，后者的压缩比例会更高一些。
+   
    <br/>
    <center><img src="/assets/img/post/2024-11-06-how-to-compress-video-by-shutter-encoder/choose_function.png" alt="选择编码"></center>
    <br/>
