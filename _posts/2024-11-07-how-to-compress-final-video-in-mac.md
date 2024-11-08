@@ -53,7 +53,8 @@ tags: [字幕组, 教程, 压制]
    
     <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/handbrake_open.png" alt= "handbrake.open"></center>
    <br/>
-2. 此处提供一个预设文件，可以直接导入以减少配置负担。
+2. 此处提供一个预设文件，可以直接导入以减少配置负担。参考了[V2EX网友的帖子](https://fast.v2ex.com/t/1060444)，根据我们组的习惯进行了调整。
    
-3. 
+   
+3.  
 
