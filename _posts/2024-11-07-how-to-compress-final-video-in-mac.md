@@ -13,14 +13,16 @@ tags: [字幕组, 教程, 压制]
     - HandBrake
     
 2. MKVToolNix用于将视频与Ass字幕打包为一个mkv文件，可以在官网 [https://mkvtoolnix.download/macos/](https://mkvtoolnix.download/macos/) 进行下载。截止撰稿日，最新的版本号为88.0。
+   
    <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/mkvtoolnix_download.png" alt= "mkvtoolnix.download"></center>
     <br/>
    <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/mkvtoolnix_download2.png" alt= "mkvtoolnix.download2"></center>
     <br/>
 3. 下载后打开dmg文件，将 `MKVToolNix-88.0` 图标拖动到Applications文件夹中，即完成安装。
+   
    <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/mkvtoolnix_install.png" alt= "mkvtoolnix.install"></center>
    <br/>
-4. 同理我们可以从官网 [https://handbrake.fr/](https://handbrake.fr/) 下载HandBrake的dmg安装包并打开。区别在于这次我们要自己开启访达将程序拖动到应用程序文件夹中。
+4. 同理我们从官网 [https://handbrake.fr/](https://handbrake.fr/) 下载HandBrake的dmg安装包并打开。区别在于这次我们要自己开启 `访达/Finder` 将程序拖动到应用程序文件夹中。
    
    <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/handbrake_install.png" alt= "handbrake.install"></center>
    <br/>
@@ -51,8 +53,7 @@ tags: [字幕组, 教程, 压制]
    
     <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/handbrake_open.png" alt= "handbrake.open"></center>
    <br/>
-2. 对于M系列芯片来说，可以在顶部的预设中选择 `H.265 Apple VideoToolbox 1080p` .
-   <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/handbrake_1080.png" alt= "handbrake.1080"></center>
-   <br/>
+2. 此处提供一个预设文件，可以直接导入以减少配置负担。
+   
 3. 
 
