@@ -58,7 +58,7 @@ tags: [字幕组, 教程, 小版本, Shutter Encoder]
    <center><img src="/assets/img/post/2024-11-06-how-to-compress-video-by-shutter-encoder/choose_video.webp" alt="选择视频"></center>
    <br/>
 
-2. 在下方的 `Choose function/选择功能` 中选择希望使用的视频编码格式，通常使用 `H264` 或者 `H265` ，后者的压缩比例会更高一些。
+2. 在下方的 `Choose function/选择功能` 中选择希望使用的视频编码格式，通常使用 `H264` 。 `H265` 的压缩比例会更高一些，对解码性能的要求也比较高，电脑配置一般的志愿者播放H256视频可能会卡顿，所以不建议小版本使用。
 
    <center><img src="/assets/img/post/2024-11-06-how-to-compress-video-by-shutter-encoder/choose_function.webp" alt="选择编码"></center>
    <br/>
@@ -77,7 +77,7 @@ tags: [字幕组, 教程, 小版本, Shutter Encoder]
    <center><img src="/assets/img/post/2024-11-06-how-to-compress-video-by-shutter-encoder/scale2.webp" alt="scale2"></center>
    <br/>
 
-6. 右侧中央的 `File size/文件大小` 栏可以根据你的设置提前预估压制后的文件大小。通常小版本视频长片控制在500MB左右即可，最大不要超过700MB，否则会增加其他志愿者的下载负担。除了切换分辨率，也可以通过切换 `H264` 、 `H265` 和 `H266` 来减少文件体积。
+6. 右侧中央的 `File size/文件大小` 栏可以根据你的设置提前预估压制后的文件大小。通常小版本视频长片控制在500MB左右即可，最大不要超过700MB，否则会增加其他志愿者的下载负担。
    
 
 ## 小版本压制
