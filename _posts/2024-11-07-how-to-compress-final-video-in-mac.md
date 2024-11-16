@@ -13,8 +13,8 @@ tags: [字幕组, 教程, 压制]
 
 ## 软件安装
 1. 在Mac上执行压制需要用到两个软件：
-    - MKVToolNix
-    - HandBrake
+    - **MKVToolNix**
+    - **HandBrake**
     
 2. MKVToolNix用于将视频与Ass字幕打包为一个mkv文件，可以在官网 [https://mkvtoolnix.download/macos/](https://mkvtoolnix.download/macos/) 进行下载。截止撰稿日，最新的版本号为88.0。
    
