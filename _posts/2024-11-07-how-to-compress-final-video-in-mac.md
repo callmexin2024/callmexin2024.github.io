@@ -7,7 +7,7 @@ categories: [字幕组, 教程]
 tags: [字幕组, 教程, 压制]
 ---
 ## 前情提要
-   本教程仅仅讨论如何压制完成了字体设置、位置及特效的最终版ASS。如何在MacOS上进行特效制作的部分之后可能会另写一篇。
+   本教程仅讨论如何压制完成了特效制作的最终版ASS文件。如何在MacOS上进行特效制作的部分之后可能会另写一篇。
 
 ## 软件安装
 1. 在Mac上执行压制需要用到两个软件：
@@ -24,7 +24,7 @@ tags: [字幕组, 教程, 压制]
    
    <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/mkvtoolnix_install.png" alt= "mkvtoolnix.install"></center>
    <br/>
-4. 同理我们从官网 [https://handbrake.fr/](https://handbrake.fr/) 下载HandBrake的dmg安装包并打开。区别在于这次我们要自己开启 `访达/Finder` 将程序拖动到应用程序文件夹中。
+4. 同理我们从官网 [https://handbrake.fr/](https://handbrake.fr/) 下载HandBrake的dmg安装包并打开。区别在于这次我们要自己开启 `访达/Finder` 将程序拖动到`应用程序/Applications`文件夹中。
    
    <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/handbrake_install.png" alt= "handbrake.install"></center>
    <br/>
@@ -57,28 +57,28 @@ tags: [字幕组, 教程, 压制]
    <br/>
 2. 此处提供一个json预设，可以直接导入以减少配置负担。参考了[V2EX网友的帖子](https://fast.v2ex.com/t/1060444)，并根据我们组的习惯进行了调整。
    
-   [1080p_x264_QAF.json](https://github.com/callmexin2024/callmexin2024.github.io/blob/master/downloads/1080p_x264_QAF.json)
+   点击下载：[1080p_x264_QAF.json](https://github.com/callmexin2024/callmexin2024.github.io/blob/master/downloads/1080p_x264_QAF.json)
    <br/>
+
    下载后根据如下方式导入：
 
     <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/add_new_json.png" alt= "add.new.json"></center>
    <br/>
-
-   以后再使用直接切换即可：
+   今后再次使用直接切换即可：
 
    <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/add_new_json_2.png" alt= "add.new.json.2"></center>
    <br/>
-3. 套用好预设后，进入`字幕`设置，将我们之前放入的字幕设置为`烧入`，即制作硬字幕。
+3. 套用好预设后，进入`字幕`页面，将我们之前放入的字幕轨道设置为`烧入`，意思是制作硬字幕。
    
    <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/burn_in_1.png" alt= "burn.in"></center>
    <br/>
-4. 预设的配置并非一劳永逸的方案，有时候要根据片源的情况和具体的电脑配置进行微调。打开`视频`配置栏，红色框住的部分是我们比较常调整的两个参数。
+4. 预设的配置并非一劳永逸的方案，有时候要根据片源的情况和具体的电脑配置进行微调。打开`视频`页面，红色框住的部分是我们较常调整的两个参数。
    
    质量部分的`RF`是`固定码率系数（CRF）`的简写，常用区间为18-24。数值越小，意味着输出视频的质量（码率）越高，视频文件体积也就越大。
 
    编码选项部分的`预设`代表编码的速度，通常在`medium`、`slow`、`slower`、`veryslow`、`placebo`之间选择。同字面意思一样，越向右编码速度越慢，画面越清晰；反之速度快但视频更模糊。
 
-   对于短片而言，RF可设置为18、19，预设为veryslow或placebo，因为总编译时间通常也就一二十分钟分钟，慢一点也能接受。长片则需要根据机器性能反复调整找到自己机器常用的组合，例如可以从RF20+预设slower开始测试。
+   对于短片而言，RF可设置为18、19，预设为veryslow或placebo，因为总编译时间通常也就一二十分钟分钟，慢一点也能接受。长片则需要根据机器性能反复调整找到适合自己机器的组合，例如可以从RF20+预设slower开始测试。
    
    <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/video_setting.png" alt= "video.setting"></center>
    <br/>
@@ -91,14 +91,15 @@ tags: [字幕组, 教程, 压制]
    <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/stop_1.png" alt= "stop.1"></center>
    <br/>
 
-   如果在开始转码后觉得预估的剩余时间太久难以接受，可以取消本次编码，向左调整`预设`的速度。
+   如果觉得预估的剩余时间太久难以接受，可以点击 `停止` --> `全部停止` 取消本次编码，然后向左调整`预设`的速度。
 
+   <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/stop_2.png" alt= "stop.2"></center>
+   <br/>
    如果转码完成后的文件体积太大，例如长片超过2G，则向左调整RF数值重新压制。
    <br>
-7. 完成后要对压制视频进行检查，包括分辨率是否正确，体积是否合适，有无压制错误产生的黑屏、色块，以及字幕位置与大小是否正常等。在QuickTime Player中点击窗口，即可打开`影片检查器`，查看视频的分辨率、码率等各项信息。
+7. 完成后要对压制视频进行检查，包括分辨率是否正确、体积是否合适、有无压制错误产生的黑屏/色块，以及字幕位置与大小是否正常等。在QuickTime Player中点击窗口，即可打开`影片检查器`，查看视频的分辨率、码率等信息。
    
    <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/info.png" alt= "info"></center>
    <br/>
-   
-
+   【注】：本教程使用的视频样例为合作项目，对方有单独要求字幕放在顶部，非本字幕组常用模板。
 
