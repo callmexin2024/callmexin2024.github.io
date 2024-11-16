@@ -58,8 +58,9 @@ tags: [字幕组, 教程, 压制]
 2. 此处提供一个json预设，可以直接导入以减少配置负担。参考了[V2EX网友的帖子](https://fast.v2ex.com/t/1060444)，并根据我们组的习惯进行了调整。
    
    点击下载：[1080p_x264_QAF.json](https://github.com/callmexin2024/callmexin2024.github.io/blob/master/downloads/1080p_x264_QAF.json)
+   
+   <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/download_json.png" alt= "download.json"></center>
    <br/>
-
    下载后根据如下方式导入：
 
     <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/add_new_json.png" alt= "add.new.json"></center>
