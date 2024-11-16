@@ -86,7 +86,7 @@ tags: [字幕组, 教程, 压制]
 
    对于短片而言，RF可设置为18、19，预设为veryslow或placebo，因为总编译时间通常也就一二十分钟分钟，慢一点也能接受。长片则需要根据机器性能反复调整找到适合自己机器的组合，例如可以从 `RF 20` 和 `slower` 开始测试。
    <br>
-5. 视频页面设置完成后，可在最下方调整输出的文件名以及保存位置。一切就绪后点击顶部的 `开始` 。
+5. 最下方可调整输出的文件名以及保存位置。一切就绪后点击顶部的 `开始` 。
    
    <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/start.png" alt= "srart"></center>
    <br/>
