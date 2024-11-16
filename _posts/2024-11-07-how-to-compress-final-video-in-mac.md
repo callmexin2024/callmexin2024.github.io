@@ -72,16 +72,18 @@ tags: [字幕组, 教程, 压制]
    
    <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/burn_in_1.png" alt= "burn.in"></center>
    <br/>
-4. 预设的配置并非一劳永逸的方案，有时候要根据片源的情况和具体的电脑配置进行微调。打开`视频`页面，红色框住的部分是我们较常调整的两个参数。
+4. 预设的配置并非一劳永逸的方案，常常要根据片源的情况和具体的电脑配置进行微调。
    
+   打开`视频`页面，红色框住的部分是我们较常调整的两个参数。
+
+   <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/video_setting.png" alt= "video.setting"></center>
+   <br/>
    质量部分的`RF`是`固定码率系数（CRF）`的简写，常用区间为18-24。数值越小，意味着输出视频的质量（码率）越高，视频文件体积也就越大。
 
    编码选项部分的`预设`代表编码的速度，通常在`medium`、`slow`、`slower`、`veryslow`、`placebo`之间选择。同字面意思一样，越向右编码速度越慢，画面越清晰；反之速度快但视频更模糊。
 
    对于短片而言，RF可设置为18、19，预设为veryslow或placebo，因为总编译时间通常也就一二十分钟分钟，慢一点也能接受。长片则需要根据机器性能反复调整找到适合自己机器的组合，例如可以从RF20+预设slower开始测试。
-   
-   <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/video_setting.png" alt= "video.setting"></center>
-   <br/>
+   <br>
 5. 视频页面设置完成后，可在最下方调整输出的文件名以及保存位置。一切就绪后点击顶部的开始。
    
    <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/start.png" alt= "srart"></center>
@@ -90,7 +92,6 @@ tags: [字幕组, 教程, 压制]
    
    <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/stop_1.png" alt= "stop.1"></center>
    <br/>
-
    如果觉得预估的剩余时间太久难以接受，可以点击 `停止` --> `全部停止` 取消本次编码，然后向左调整`预设`的速度。
 
    <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/stop_2.png" alt= "stop.2"></center>
@@ -101,5 +102,5 @@ tags: [字幕组, 教程, 压制]
    
    <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/info.png" alt= "info"></center>
    <br/>
-   【注】：本教程使用的视频样例为合作项目，对方有单独要求字幕放在顶部，非本字幕组常用模板。
+   注：本教程使用的视频样例为合作项目，对方要求字幕放在顶部，非字幕组常用模板。
 
