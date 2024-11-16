@@ -1,11 +1,13 @@
 ---
-title: 【教程】MacOS压制Ass字幕
+title: 【教程】MacOS压制Ass硬字幕
 date: 2024-11-07 20:38:00 +0100
 description: 尝试压制组在MacOS上工作的可能
 
 categories: [字幕组, 教程]
 tags: [字幕组, 教程, 压制]
 ---
+## 前情提要
+   本教程仅仅讨论如何压制完成了字体设置、位置及特效的最终版ASS。如何在MacOS上进行特效制作的部分之后可能会另写一篇。
 
 ## 软件安装
 1. 在Mac上执行压制需要用到两个软件：
@@ -49,12 +51,54 @@ tags: [字幕组, 教程, 压制]
 
 ## 压制硬字幕版本
 
-1. 打开 `HandBrake` ，选择刚才生成的.mkv文件。
+1. 打开 `HandBrake` ，选择用mkvtoolnix生成的`.mkv`文件。
    
     <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/handbrake_open.png" alt= "handbrake.open"></center>
    <br/>
-2. 此处提供一个预设文件，可以直接导入以减少配置负担。参考了[V2EX网友的帖子](https://fast.v2ex.com/t/1060444)，根据我们组的习惯进行了调整。
+2. 此处提供一个json预设，可以直接导入以减少配置负担。参考了[V2EX网友的帖子](https://fast.v2ex.com/t/1060444)，并根据我们组的习惯进行了调整。
    
+   [1080p_x264_QAF.json](https://github.com/callmexin2024/callmexin2024.github.io/blob/master/downloads/1080p_x264_QAF.json)
+   <br/>
+   下载后根据如下方式导入：
+
+    <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/add_new_json.png" alt= "add.new.json"></center>
+   <br/>
+
+   以后再使用直接切换即可：
+
+   <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/add_new_json_2.png" alt= "add.new.json.2"></center>
+   <br/>
+3. 套用好预设后，进入`字幕`设置，将我们之前放入的字幕设置为`烧入`，即制作硬字幕。
    
-3.  
+   <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/burn_in_1.png" alt= "burn.in"></center>
+   <br/>
+4. 预设的配置并非一劳永逸的方案，有时候要根据片源的情况和具体的电脑配置进行微调。打开`视频`配置栏，红色框住的部分是我们比较常调整的两个参数。
+   
+   质量部分的`RF`是`固定码率系数（CRF）`的简写，常用区间为18-24。数值越小，意味着输出视频的质量（码率）越高，视频文件体积也就越大。
+
+   编码选项部分的`预设`代表编码的速度，通常在`medium`、`slow`、`slower`、`veryslow`、`placebo`之间选择。同字面意思一样，越向右编码速度越慢，画面越清晰；反之速度快但视频更模糊。
+
+   对于短片而言，RF可设置为18、19，预设为veryslow或placebo，因为总编译时间通常也就一二十分钟分钟，慢一点也能接受。长片则需要根据机器性能反复调整找到自己机器常用的组合，例如可以从RF20+预设slower开始测试。
+   
+   <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/video_setting.png" alt= "video.setting"></center>
+   <br/>
+5. 视频页面设置完成后，可在最下方调整输出的文件名以及保存位置。一切就绪后点击顶部的开始。
+   
+   <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/start.png" alt= "srart"></center>
+   <br/>
+6. 压制开始后，顶部按钮会变成`停止`与`暂停`。最下方将预估完成压制所需的时间。
+   
+   <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/stop_1.png" alt= "stop.1"></center>
+   <br/>
+
+   如果在开始转码后觉得预估的剩余时间太久难以接受，可以取消本次编码，向左调整`预设`的速度。
+
+   如果转码完成后的文件体积太大，例如长片超过2G，则向左调整RF数值重新压制。
+   <br>
+7. 完成后要对压制视频进行检查，包括分辨率是否正确，体积是否合适，有无压制错误产生的黑屏、色块，以及字幕位置与大小是否正常等。在QuickTime Player中点击窗口，即可打开`影片检查器`，查看视频的分辨率、码率等各项信息。
+   
+   <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/info.png" alt= "info"></center>
+   <br/>
+   
+
 
