@@ -86,7 +86,14 @@ tags: [字幕组, 教程, 压制]
    编码选项的 `预设/preset` 代表编码的速度，通常在 `medium` 、 `slow` 、 `slower` 、 `veryslow` 、 `placebo` 之间选择。同字面意思一样，越向右编码速度越慢，画面越清晰；反之速度快但视频更模糊。
 
    对于短片而言，RF可设置为18、19，预设为veryslow或placebo，因为总编译时间通常也就10~20分钟。长片则需要根据机器性能反复调整找到适合自己机器的组合，例如可以从 `RF 20` 和 `slower` 开始测试。
-   <br>
+
+   以丐版M3 Pro芯片为例，压制一部90分钟的1080p长片，使用 `slower` 大约需要40分钟， `verslow`下大约需要1小时。
+
+   <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/start_3.webp" alt= "start.3"></center>
+   <br/>
+
+   <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/start_2.webp" alt= "start.2"></center>
+   <br/>
 5. 最下方可调整输出的文件名以及保存位置。一切就绪后点击顶部的 `开始` 。
    
    <center><img src="/assets/img/post/2024-11-07-how-to-compress-final-video-in-mac/start.webp" alt= "srart"></center>
