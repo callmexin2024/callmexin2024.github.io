@@ -1,5 +1,5 @@
 ---
-title: 【教程】MacOS压制Ass硬字幕
+title: 【教程】MacOS压制Ass硬字幕成片
 date: 2024-11-07 20:38:00 +0100
 description: 尝试压制组在MacOS上工作的可能
 

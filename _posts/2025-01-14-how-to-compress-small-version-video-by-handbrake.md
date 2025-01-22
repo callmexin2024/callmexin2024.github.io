@@ -1,5 +1,5 @@
 ---
-title: 【教程】MacOS使用HandBrake压制视频小版本
+title: 【教程】MacOS压制视频小版本
 date: 2025-01-14 13:00:00 +0100
 description: 简单介绍Mac系统压制小版本的方法
 
