@@ -7,6 +7,8 @@ categories: [字幕组, 教程]
 tags: [字幕组, 教程, 小版本, HandBrake]
 ---
 
+> 本教程对Windows10及以上版本系统同样适用
+
 ## 软件安装
 
 1. 从官网 [https://handbrake.fr/](https://handbrake.fr/) 下载HandBrake的dmg安装包并打开。
